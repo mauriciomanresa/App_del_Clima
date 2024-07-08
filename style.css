@@ -1,0 +1,42 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-image: url("/img/fondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contenedor {
+  max-width: 360px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(160, 211, 255, 0.5);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: #333333;
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 15px;
+  width: 50%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28b92d;
+  color: #fcfcfc;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+#datosClima {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 540;
+}
